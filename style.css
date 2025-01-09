@@ -1,0 +1,33 @@
+<style>
+/* Estilo para links */
+a {
+    color: red; /* Cor padrão do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+    color: lemonchiffon; /* Cor do link quando o mouse passa por cima */
+}
+
+/* Estilo para parágrafos */
+p {
+    font-family: Arial, sans-serif; /* Fonte padrão para todos os parágrafos */
+}
+
+h1 + p {
+    font-weight: bold; /* Parágrafo logo após h1 ficará em negrito */
+}
+
+/* Estilo para a classe destaque */
+.destaque {
+    font-family: Arial, sans-serif; /* Fonte padrão Arial */
+}
+
+.destaque p {
+    font-weight: bold; /* Parágrafos com a classe destaque ficarão em negrito */
+}
+
+.destaque strong {
+    color: red; /* Elementos <strong> dentro da classe destaque terão cor vermelha */
+}
+</style>
